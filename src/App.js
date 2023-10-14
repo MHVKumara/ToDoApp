@@ -19,6 +19,11 @@ function App() {
     let updatedTodoArr = [...allTodos];
     updatedTodoArr.push(newTodoItem);
     setTodos(updatedTodoArr);
+
+    // Clear the input fields after adding a todo
+    setNewTitle("");
+    setNewDescription("");
+
     localStorage.setItem('todolist',JSON.stringify(updatedTodoArr))  /*Save the array as string. Not as an object. */
   };
 
