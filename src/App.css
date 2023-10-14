@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  color: white;  /*text color*/
+  color: rgb(255, 255, 255);  /*text color*/
   overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ h1{
 .todo-list-item p{
   font-size: 14px;
   color: rgb(161, 161, 161);
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .icon{
